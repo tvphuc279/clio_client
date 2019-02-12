@@ -30,7 +30,7 @@ module ClioClient
 
     def authorized?
       begin
-        get("/users/who_am_i")
+        get("/api/v4/users/who_am_i")
         true
       rescue ClioClient::Unauthorized
         false
