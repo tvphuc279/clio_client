@@ -22,9 +22,9 @@ module ClioClient
         ClioClient::User
       end
 
-      def end_point_url;     'users';  end
-      def plural_resource;   'users';  end
-      def singular_resource; 'user';   end
+      def end_point_url;     '/api/v4/users';  end
+      def plural_resource;   '/api/v4/users';  end
+      def singular_resource; '/api/v4/user';   end
 
     end
   end
